@@ -1,0 +1,43 @@
+.header{
+    background-image: url(/media/sfondoHome.jpg);
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    border: dotted white 2px;
+    min-height: 250px;
+    max-width: 250px;
+    transition: all, 0.5s;
+    cursor:pointer;
+}
+
+.box:hover{
+    border: 3px solid white;
+    transform: translateY(-10px);
+}
+
+.icon{
+    font-size: 50px;
+}
+
+/* Sezione dipendenti */
+.userHeight {
+    height: 70vh;
+}
+
+/* books */
+.books{
+     background-image: url(/media/sfondoHome.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cardImg{
+    height: 350px;
+    object-position: center;
+}
