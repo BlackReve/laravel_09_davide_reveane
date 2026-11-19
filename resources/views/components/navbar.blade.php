@@ -24,6 +24,7 @@
                         <ul class="dropdown-menu">
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('book.list') }}">I nostri libri</a>
+                                <a href="{{route('books.create')}}" class="nav-link">Inserisci un libro</a>
                             </li>
                         </ul>
                     </li>

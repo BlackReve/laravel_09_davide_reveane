@@ -7,6 +7,9 @@
                 <div class="row">
                     <h2 class="display-4 text-danger fw-bold text-center">Tutti i nostri Libri</h2>
                 </div>
+                <div class="text-center mb-4">
+                    <a href="{{route('books.create')}}" class="btn btn-light">Aggiungi un libro</a>
+                </div>
                 @foreach ($books as $book)
                     <div class="col-12 col-md-3">
                        <x-card

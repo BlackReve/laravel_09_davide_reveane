@@ -21,7 +21,7 @@ class BooksController extends Controller
         return view('books.books', ['books' => $books]);
     }
 
-    // public function booksDetail($id)
+        // public function booksDetail($id)
     // {
         
     //     foreach ($this->books as $book) {
